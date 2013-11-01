@@ -28,6 +28,6 @@ fi
 if [ ! -e $webide_dir/codestyles/WordPress.xml ]; then
     echo "Install WordPress coding style"
     cd $webide_dir/codestyles
-    ln -s $repo_dir/WordPress.xml .
+    ln -s $repo_dir/codestyles/WordPress.xml .
     cd $repo_dir
 fi
