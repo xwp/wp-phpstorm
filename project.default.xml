@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-Add this file to ~/Library/Preferences/WebIde70/options
+Add this file to ~/Library/Preferences/WebIde*/options
 This is My Default code inspection settings for all new PHPStorm projects.
 Screenshot of PHP Inspection settings: https://www.dropbox.com/s/lz8ups5r484dp9r/Screenshot%202013-10-22%2000.31.41.png
 
 Sets PHP Code Sniffer to WordPress Coding Standards (The inspection requires PHP Code Sniffer to be properly installed in PEAR home directory as described here: http://pear.php.net/package/PHP_CodeSniffer and set up in the IDE at Settings|PHP|Code Sniffer).
-Sets JSHint to use .jshintrc Configuration file (Looks for file in /Users/Yourname/Sites/.jshintrc ).
+Sets JSHint to use .jshintrc Configuration file (Looks for file in /Users/Yourname/.jshintrc ).
 Sets basic VCS settings.
 
 Backup your existing project.default.xml before using this file.
@@ -36,7 +36,7 @@ Backup your existing project.default.xml before using this file.
         <option name="USE_PROJECT_PROFILE" value="true" />
         <version value="1.0" />
       </component>
-      <component name="JSHintConfiguration" version="2.1.0" use-config-file="true" default-config-file-path="$USER_HOME$/Sites/.jshintrc">
+      <component name="JSHintConfiguration" version="2.1.0" use-config-file="true" default-config-file-path="$USER_HOME$/.jshintrc">
         <option bitwise="true" />
         <option camelcase="false" />
         <option curly="true" />
