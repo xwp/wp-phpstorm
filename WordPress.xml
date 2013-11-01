@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Add this file to /Library/Preferences/Webide60/codestyles -->
-
-<code_scheme name="WordPress Code Style">
+<code_scheme name="WordPress">
   <option name="USE_SAME_INDENTS" value="true" />
   <option name="IGNORE_SAME_INDENTS_FOR_LANGUAGES" value="true" />
   <option name="OTHER_INDENT_OPTIONS">

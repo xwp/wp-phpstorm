@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-Add this file to ~/Library/Preferences/WebIde*/options
-This is My Default code inspection settings for all new PHPStorm projects.
-Screenshot of PHP Inspection settings: https://www.dropbox.com/s/lz8ups5r484dp9r/Screenshot%202013-10-22%2000.31.41.png
-
-Sets PHP Code Sniffer to WordPress Coding Standards (The inspection requires PHP Code Sniffer to be properly installed in PEAR home directory as described here: http://pear.php.net/package/PHP_CodeSniffer and set up in the IDE at Settings|PHP|Code Sniffer).
-Sets JSHint to use .jshintrc Configuration file (Looks for file in /Users/Yourname/.jshintrc ).
-Sets basic VCS settings.
-
-Backup your existing project.default.xml before using this file.
-
--->
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
@@ -138,9 +126,8 @@ Backup your existing project.default.xml before using this file.
       <component name="PropertiesComponent">
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.lastSelected" value="preferences.sourceCode" />
-        <property name="last_opened_file_path" value="$USER_HOME$/Sites/.jshintrc" />
-        <property name="options.searchVisible" value="true" />
         <property name="options.splitter.details.proportions" value="0.2" />
+        <property name="options.searchVisible" value="true" />
       </component>
       <component name="RunManager">
         <list size="0" />
