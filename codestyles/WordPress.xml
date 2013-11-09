@@ -103,4 +103,20 @@
       <option name="INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+    <arrangement>
+      <rules>
+        <rule>
+          <match>
+            <NAME>xmlns:.*</NAME>
+          </match>
+        </rule>
+      </rules>
+    </arrangement>
+  </codeStyleSettings>
 </code_scheme>
+
