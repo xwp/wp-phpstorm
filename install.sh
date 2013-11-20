@@ -11,7 +11,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     #user_config_dir="?"
 fi
 
-webide_dir=`$(which ls) -d $user_config_dir* | tail -n 1`
+webide_dir=`$(which ls) -d $user_config_dir* | tail -n 1`/config
 
 if [ ! $webide_dir ]; then
     echo "Could not find WebId* directories"
